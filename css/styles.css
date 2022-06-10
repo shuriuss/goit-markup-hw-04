@@ -171,6 +171,19 @@ img {
 }
 
 
+/* .contact::before {
+    content: "";
+    width: 16px;
+    height: 12px;
+    pading-right: 10px;
+    background: red;
+    background-image: url(../images/icons.svg#icon-smartphone);
+    background-size: contain;
+} */
+
+.icon-contact {
+    margin-right: 10px;
+}
 
 
 
