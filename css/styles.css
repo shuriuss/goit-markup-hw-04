@@ -203,7 +203,9 @@ img {
     margin-left: auto;
     margin-right: auto;
 
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/baner.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), 
+    rgba(0, 0, 0, 0.1)), 
+    url(../images/baner.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 
@@ -411,14 +413,16 @@ img {
     }
 
 .clients-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     width: 170px;
     height: 92px;
     border: 1px solid var(--icons-color);
     fill: var(--icons-color);
     border-radius: 4px;
-    padding: 16px 32px;
+    /* padding: 16px 32px; */
 }
 
     
